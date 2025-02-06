@@ -52,7 +52,7 @@ const PaymentSuccess = () => {
         </Alert>
       </div>
 
-      <OrderTraker activeStep={1}/>
+      <OrderTraker activeStep={5}/>
 
       <Grid container className="space-y-5 py-5 pt-20">
         {order.order?.orderItems.map((item) => (
