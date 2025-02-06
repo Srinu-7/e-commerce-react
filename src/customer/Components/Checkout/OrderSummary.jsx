@@ -57,7 +57,7 @@ const handleCreatePayment=()=>{
               </div>
               <div className="flex justify-between">
                 <span>Discount</span>
-                <span className="text-green-700">-₹{order.order?.discounte}</span>
+                <span className="text-green-700">-₹{order.order?.discount}</span>
               </div>
               <div className="flex justify-between">
                 <span>Delivery Charges</span>

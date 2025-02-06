@@ -4,7 +4,7 @@ const DEPLOYED='https://e-commerce-springboot-production.up.railway.app'
 
 const LOCALHOST='http://localhost:8080'
 
-export const API_BASE_URL = DEPLOYED;
+export const API_BASE_URL = LOCALHOST;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
