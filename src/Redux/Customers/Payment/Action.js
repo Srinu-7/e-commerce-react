@@ -27,8 +27,8 @@ export const createPayment = (reqData) => async (dispatch) => {
 
     const { data } = await axios.post(`${API_BASE_URL}/api/payments/${reqData.orderId}`, reqData, config);
     console.log("datta", data)
-    if (data.paymentLinkUrl) {
-      window.location.href = data.paymentLinkUrl;
+    if (data.payment_link_url) {
+      window.location.href = data.payment_link_url;
     }
     dispatch({
       type: CREATE_PAYMENT_SUCCESS,
