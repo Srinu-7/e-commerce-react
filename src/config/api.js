@@ -1,6 +1,7 @@
 
 import axios from 'axios';
-const DEPLOYED='https://e-commerce-springboot-production.up.railway.app'
+
+const DEPLOYED='https://ecommerce-springboot-production.up.railway.app'
 
 const LOCALHOST='http://localhost:8080'
 
